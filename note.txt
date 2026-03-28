@@ -1,0 +1,47 @@
+1. HOW TO PUSH YOUR LOCAL CHANGES
+Whenever you make any changes (code, files, etc.):
+
+✅ Steps:
+git add .
+git commit -m "what changes you made"
+git push
+
+💡 Example:
+git add .
+git commit -m "Added login page"
+git push
+
+👉 That’s it — your changes go to GitHub
+
+🧠 Meaning:
+git add . → select all changes
+git commit → save changes locally
+git push → upload to GitHub
+
+--------------------------------------------------------------------
+
+2. HOW TO GET TEAMMATE CHANGES 
+If your teammates push code, you need to pull it
+
+✅ Command:
+git pull
+
+💡 Example:
+git pull origin main
+
+👉 This will:
+Download latest code
+Update your project
+
+
+
+👥 Before YOU start working (VERY IMPORTANT):
+⚠️ GOLDEN RULE
+
+git pull
+👉 Always do this first to avoid conflicts
+
+👉 Always pull before push
+git pull → do work → git add → commit → push
+
+--------------------------------------------------------------------
